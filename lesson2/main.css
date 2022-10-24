@@ -1,0 +1,40 @@
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.father{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 40px;
+}
+.child1 {
+    width: 100%;
+    height: 23%;
+    background: #9c31e3;
+}
+.child2{
+    width: 100%;
+    height: 22%;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+
+}
+.child3{
+    width: 100%;
+    height: 49%;
+    background: #370346;
+}
+.inner-block{
+    width: 31%;
+    height: 100%;
+    background: #29baa0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
